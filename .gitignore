@@ -1,0 +1,74 @@
+# ================================
+# AI Content Studio - .gitignore
+# ================================
+
+# ---------- Environment / Secrets ----------
+.env
+*.env
+backend/.env
+frontend/.env
+
+# ---------- Frontend / Node ----------
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+node_modules/
+
+# ---------- Java / Spring Boot / Maven ----------
+backend/target/
+target/
+*.class
+
+# ---------- IDE ----------
+.idea/
+*.iml
+.vscode/
+*.ipr
+*.iws
+
+# ---------- Logs ----------
+*.log
+logs/
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+
+# ---------- Temporary Files ----------
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ---------- Build / Generated ----------
+out/
+bin/
+
+# ---------- Coverage ----------
+coverage/
+.nyc_output/
+
+# ---------- Java-specific ----------
+hs_err_pid*
+replay_pid*
+
+# ---------- Spring Boot ----------
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# ---------- Credentials / Keys ----------
+*.pem
+*.key
+*.p12
+*.jks
+credentials.json
+secrets.json
+.env
+.env.*
+!.env.example
+node_modules/
+target/
+.idea/
+*.iml
+.DS_Store
