@@ -56,7 +56,7 @@ app:
 
   # ===== Groq API (Primary — free Llama models) =====
   groq:
-    api-key: ${GROQ_API_KEY}
+    api-key: ${GROQ_API_KEY:}
     base-url: https://api.groq.com/openai/v1
     model: openai/gpt-oss-120b
     max-tokens: 4096
